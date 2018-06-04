@@ -1,4 +1,4 @@
-## CTCI - Arrays and Strings Question 1
+## CTCI - Arrays and Strings Question 2
 ## Uses a list as a stack to get a O(n) solution
 ## Can't do in-place modification on the string since they are immutable in python
 
