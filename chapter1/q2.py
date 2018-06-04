@@ -11,7 +11,11 @@ def reverse(st):
 		reversed_st = reversed_st+st_stack.pop()
 	return reversed_st
 
+def reverseBetter(st):
+	if len(st)>0:
+		return st[::-1]
+	return ""
 
-print reverse("gozde")
-print reverse("")
-print reverse()
+print reverseBetter("gozde")
+print reverseBetter("")
+print reverseBetter("a")
