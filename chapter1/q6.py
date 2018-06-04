@@ -21,3 +21,7 @@ print M1
 M2 = np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]])
 rotate(M2)
 print M2
+
+## Alternative trick with zip
+M3 = np.array([[1,2,3,4],[5,6,7,8],[9,10,11,12],[13,14,15,16]])
+print zip(*M3[::-1])
