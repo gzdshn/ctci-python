@@ -86,6 +86,16 @@ class LinkedList:
 	def getHeadNode(self):
 		return self._head
 
+	def getNode(self,index):
+		curr = self._head
+		count = 0
+		while curr:
+			if count==index:
+				return curr
+			count +=1
+			curr = curr.next
+		return None
+
 	def printList(self):
 		curr = self._head
 		s = ""
