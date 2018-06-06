@@ -83,5 +83,15 @@ class LinkedList:
 				else:
 					curr = curr.next
 
+	def getHeadNode(self):
+		return self._head
+
+	def printList(self):
+		curr = self._head
+		s = ""
+		while curr:
+			s = s + str(curr.val) + " "
+			curr = curr.next
+		print s
 
 
