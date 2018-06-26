@@ -1,5 +1,5 @@
 ## CTCI - Linked Lists Question 7
-## Return node at the beginning of loop
+## Check if a linked list is a palindrome
 ## Basically runs in O(2n)~O(n) time, O(n) space
 ## If we had a doubly linked list (with a tail pointer), we could have done this in O(n/2)
 
