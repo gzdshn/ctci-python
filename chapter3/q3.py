@@ -48,7 +48,7 @@ class SetofStacks():
 			print "Stack " + str(s) +":"
 			print self._stackset[s]
 
-
+'''
 ss = SetofStacks()
 for val in range(0,25):
 	ss.push(val)
@@ -56,4 +56,4 @@ ss.printStacks()
 for val in range(0,25):
 	ss.pop()
 ss.printStacks()
-
+'''
